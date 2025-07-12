@@ -1,0 +1,22 @@
+/* GDCologne */
+
+position: relative;
+width: 1904px;
+height: 2249.28px;
+
+background: #FFFFFF;
+
+/* Body */
+
+position: absolute;
+height: 2249.28px;
+left: 0px;
+right: 0px;
+top: 0px;
+overflow-y: scroll;
+
+background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.55) 46.53%), url(.jpg);
+
+/* [truncated for space — see original message] */
+
+border: 0.0625px solid #FFFFFF;

@@ -1,42 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>GD Cologne</title>
-    <script defer src="redirects.js"></script>
-    <script defer src="popup.js"></script>
-    <link href="tailwind.css" rel="stylesheet" />
-  </head>
-  <body class="bg-white">
-    <div class="flex justify-center">
-      <div class="w-[1904px] h-[2249.28px] relative bg-white overflow-y-scroll bg-gradient-to-b from-black/20 to-black/55">
-        <div class="absolute w-[1187px] h-[446px] top-[642px] left-[359px]">
-          <h2 class="absolute w-[248px] h-[65px] left-[489px] text-[64px] text-center font-[Pacifico-Regular] bg-gradient-to-b from-white to-[#FFCF8C] text-transparent bg-clip-text">
-            Videos:
-          </h2>
-          <div class="absolute w-[1185px] h-[307px] top-[139px] bg-black rounded-[32px] opacity-40"></div>
-        </div>
+<head>
+  <meta charset="UTF-8">
+  <title>GD Cologne</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+  <style>
+    /* Hover effects for redirect buttons only */
+    .redirect-button:hover {
+      filter: brightness(1.2);
+      cursor: pointer;
+      transform: scale(1.02);
+      transition: all 0.2s ease-in-out;
+    }
+  </style>
+</head>
+<body>
 
-        <div class="absolute w-[328px] h-[154px] top-[2070px] left-[788px]">
-          <div class="text-white text-xl text-center">Reach me here:</div>
+  <div class="button-container">
+    <div class="redirect-button" onclick="redirectTo('Moai')">Moai</div>
+    <div class="redirect-button" onclick="redirectTo('Zoo')">Zoo</div>
+    <div class="redirect-button" onclick="redirectTo('GDBrowser')">GDBrowser</div>
+    <div class="redirect-button" onclick="redirectTo('Online Icon Kit')">Online Icon Kit</div>
+    <div class="redirect-button" onclick="redirectTo('GD Font Gen')">GD Font Gen</div>
+    <div class="redirect-button" onclick="redirectTo('GD Comment Gen')">GD Comment Gen</div>
+    <div class="redirect-button" onclick="redirectTo('GD Save Explorer')">GD Save Explorer</div>
+    <div class="redirect-button" onclick="redirectTo('GD Spritesheet')">GD Spritesheet</div>
+    <div class="redirect-button" onclick="redirectTo('Treacherous Trials')">Treacherous Trials</div>
+    <div class="redirect-button" onclick="redirectTo('Sea Bunnies')">Sea Bunnies</div>
+  </div>
 
-          <a href="https://twitter.com/messages/compose?recipient_id=833838358996611073" target="_blank">
-            <div class="mt-2 w-[150px] h-[39px] bg-gradient-to-t from-[#1DA1F2] to-[#4BBAFF] rounded-[5px] shadow-md flex items-center justify-center text-white">
-              Twitter DMs
-            </div>
-          </a>
-
-          <button onclick="showEmail()" class="ml-[24px] mt-2 w-[150px] h-[39px] bg-gradient-to-t from-[#696969] to-[#8E8E8E] rounded-[5px] shadow-md text-white">
-            Email
-          </button>
-
-          <p class="mt-3 text-white text-sm text-center opacity-30">
-            Background art by <span class="underline">NetBa</span>, character art by
-            <span class="underline">k0n</span><br />
-            Website design by <span class="underline">ggztv</span>
-          </p>
-        </div>
-      </div>
-    </div>
-  </body>
+</body>
 </html>
